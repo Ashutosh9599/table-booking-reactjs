@@ -1,0 +1,82 @@
+/* List.css */
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-section {
+    margin-bottom: 0px;
+}
+
+.table-header {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.order-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.order-item {
+    margin-bottom: 20px; /* Increased margin to create more space between order items */
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-item-button {
+    padding: 8px 15px;
+    background-color: #ff0101;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-item-button:hover {
+    background-color: #df0909;
+}
+.order-info {
+margin: 10px;
+}
+
+/* Additional styles for a more modern look */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.container > div {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 15px;
+    }
+    .table-header {
+        font-size: 20px;
+    }
+    .order-item {
+        padding: 10px;
+    }
+    .order-item-button {
+        padding: 6px 12px;
+    }
+}
